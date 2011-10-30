@@ -14,12 +14,13 @@
 		94B46223145DECB4008B377E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B46222145DECB4008B377E /* main.m */; };
 		94B46227145DECB4008B377E /* PeriodicoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B46226145DECB4008B377E /* PeriodicoAppDelegate.m */; };
 		94B4622A145DECB4008B377E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94B46228145DECB4008B377E /* MainStoryboard.storyboard */; };
-		94B4622D145DECB4008B377E /* PeriodicoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B4622C145DECB4008B377E /* PeriodicoViewController.m */; };
+		94B4622D145DECB4008B377E /* PortadaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B4622C145DECB4008B377E /* PortadaViewController.m */; };
 		94B46235145DECB4008B377E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94B46234145DECB4008B377E /* SenTestingKit.framework */; };
 		94B46236145DECB4008B377E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94B46216145DECB4008B377E /* UIKit.framework */; };
 		94B46237145DECB4008B377E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94B46218145DECB4008B377E /* Foundation.framework */; };
 		94B4623F145DECB4008B377E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 94B4623D145DECB4008B377E /* InfoPlist.strings */; };
 		94B46242145DECB4008B377E /* PeriodicoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B46241145DECB4008B377E /* PeriodicoTests.m */; };
+		94B4624D145DED17008B377E /* NotimomentoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B4624C145DED17008B377E /* NotimomentoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,21 +38,23 @@
 		94B46216145DECB4008B377E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		94B46218145DECB4008B377E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		94B4621A145DECB4008B377E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		94B4621E145DECB4008B377E /* Periodico-Info.plist */ = {isa = PBXFileReference; path = "Periodico-Info.plist"; sourceTree = "<group>"; };
+		94B4621E145DECB4008B377E /* Periodico-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Periodico-Info.plist"; sourceTree = "<group>"; };
 		94B46220145DECB4008B377E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		94B46222145DECB4008B377E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		94B46224145DECB4008B377E /* Periodico-Prefix.pch */ = {isa = PBXFileReference; path = "Periodico-Prefix.pch"; sourceTree = "<group>"; };
-		94B46225145DECB4008B377E /* PeriodicoAppDelegate.h */ = {isa = PBXFileReference; path = PeriodicoAppDelegate.h; sourceTree = "<group>"; };
+		94B46224145DECB4008B377E /* Periodico-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Periodico-Prefix.pch"; sourceTree = "<group>"; };
+		94B46225145DECB4008B377E /* PeriodicoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PeriodicoAppDelegate.h; sourceTree = "<group>"; };
 		94B46226145DECB4008B377E /* PeriodicoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PeriodicoAppDelegate.m; sourceTree = "<group>"; };
 		94B46229145DECB4008B377E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		94B4622B145DECB4008B377E /* PeriodicoViewController.h */ = {isa = PBXFileReference; path = PeriodicoViewController.h; sourceTree = "<group>"; };
-		94B4622C145DECB4008B377E /* PeriodicoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PeriodicoViewController.m; sourceTree = "<group>"; };
+		94B4622B145DECB4008B377E /* PortadaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PortadaViewController.h; sourceTree = "<group>"; };
+		94B4622C145DECB4008B377E /* PortadaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PortadaViewController.m; sourceTree = "<group>"; };
 		94B46233145DECB4008B377E /* PeriodicoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeriodicoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		94B46234145DECB4008B377E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		94B4623C145DECB4008B377E /* PeriodicoTests-Info.plist */ = {isa = PBXFileReference; path = "PeriodicoTests-Info.plist"; sourceTree = "<group>"; };
+		94B4623C145DECB4008B377E /* PeriodicoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PeriodicoTests-Info.plist"; sourceTree = "<group>"; };
 		94B4623E145DECB4008B377E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		94B46240145DECB4008B377E /* PeriodicoTests.h */ = {isa = PBXFileReference; path = PeriodicoTests.h; sourceTree = "<group>"; };
+		94B46240145DECB4008B377E /* PeriodicoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PeriodicoTests.h; sourceTree = "<group>"; };
 		94B46241145DECB4008B377E /* PeriodicoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PeriodicoTests.m; sourceTree = "<group>"; };
+		94B4624B145DED16008B377E /* NotimomentoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotimomentoViewController.h; sourceTree = "<group>"; };
+		94B4624C145DED17008B377E /* NotimomentoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotimomentoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,8 +117,10 @@
 				94B46225145DECB4008B377E /* PeriodicoAppDelegate.h */,
 				94B46226145DECB4008B377E /* PeriodicoAppDelegate.m */,
 				94B46228145DECB4008B377E /* MainStoryboard.storyboard */,
-				94B4622B145DECB4008B377E /* PeriodicoViewController.h */,
-				94B4622C145DECB4008B377E /* PeriodicoViewController.m */,
+				94B4622B145DECB4008B377E /* PortadaViewController.h */,
+				94B4624B145DED16008B377E /* NotimomentoViewController.h */,
+				94B4624C145DED17008B377E /* NotimomentoViewController.m */,
+				94B4622C145DECB4008B377E /* PortadaViewController.m */,
 				94B4621D145DECB4008B377E /* Supporting Files */,
 			);
 			path = Periodico;
@@ -259,7 +264,8 @@
 			files = (
 				94B46223145DECB4008B377E /* main.m in Sources */,
 				94B46227145DECB4008B377E /* PeriodicoAppDelegate.m in Sources */,
-				94B4622D145DECB4008B377E /* PeriodicoViewController.m in Sources */,
+				94B4622D145DECB4008B377E /* PortadaViewController.m in Sources */,
+				94B4624D145DED17008B377E /* NotimomentoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
