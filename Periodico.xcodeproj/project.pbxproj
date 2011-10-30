@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		94B46217145DECB4008B377E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94B46216145DECB4008B377E /* UIKit.framework */; };
+		94B46219145DECB4008B377E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94B46218145DECB4008B377E /* Foundation.framework */; };
+		94B4621B145DECB4008B377E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94B4621A145DECB4008B377E /* CoreGraphics.framework */; };
+		94B46221145DECB4008B377E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 94B4621F145DECB4008B377E /* InfoPlist.strings */; };
+		94B46223145DECB4008B377E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B46222145DECB4008B377E /* main.m */; };
+		94B46227145DECB4008B377E /* PeriodicoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B46226145DECB4008B377E /* PeriodicoAppDelegate.m */; };
+		94B4622A145DECB4008B377E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94B46228145DECB4008B377E /* MainStoryboard.storyboard */; };
+		94B4622D145DECB4008B377E /* PeriodicoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B4622C145DECB4008B377E /* PeriodicoViewController.m */; };
+		94B46235145DECB4008B377E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94B46234145DECB4008B377E /* SenTestingKit.framework */; };
+		94B46236145DECB4008B377E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94B46216145DECB4008B377E /* UIKit.framework */; };
+		94B46237145DECB4008B377E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94B46218145DECB4008B377E /* Foundation.framework */; };
+		94B4623F145DECB4008B377E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 94B4623D145DECB4008B377E /* InfoPlist.strings */; };
+		94B46242145DECB4008B377E /* PeriodicoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B46241145DECB4008B377E /* PeriodicoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		94B46238145DECB4008B377E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94B46209145DECB4008B377E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94B46211145DECB4008B377E;
+			remoteInfo = Periodico;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		94B46212145DECB4008B377E /* Periodico.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Periodico.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94B46216145DECB4008B377E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		94B46218145DECB4008B377E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		94B4621A145DECB4008B377E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		94B4621E145DECB4008B377E /* Periodico-Info.plist */ = {isa = PBXFileReference; path = "Periodico-Info.plist"; sourceTree = "<group>"; };
+		94B46220145DECB4008B377E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		94B46222145DECB4008B377E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		94B46224145DECB4008B377E /* Periodico-Prefix.pch */ = {isa = PBXFileReference; path = "Periodico-Prefix.pch"; sourceTree = "<group>"; };
+		94B46225145DECB4008B377E /* PeriodicoAppDelegate.h */ = {isa = PBXFileReference; path = PeriodicoAppDelegate.h; sourceTree = "<group>"; };
+		94B46226145DECB4008B377E /* PeriodicoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PeriodicoAppDelegate.m; sourceTree = "<group>"; };
+		94B46229145DECB4008B377E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		94B4622B145DECB4008B377E /* PeriodicoViewController.h */ = {isa = PBXFileReference; path = PeriodicoViewController.h; sourceTree = "<group>"; };
+		94B4622C145DECB4008B377E /* PeriodicoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PeriodicoViewController.m; sourceTree = "<group>"; };
+		94B46233145DECB4008B377E /* PeriodicoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeriodicoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94B46234145DECB4008B377E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		94B4623C145DECB4008B377E /* PeriodicoTests-Info.plist */ = {isa = PBXFileReference; path = "PeriodicoTests-Info.plist"; sourceTree = "<group>"; };
+		94B4623E145DECB4008B377E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		94B46240145DECB4008B377E /* PeriodicoTests.h */ = {isa = PBXFileReference; path = PeriodicoTests.h; sourceTree = "<group>"; };
+		94B46241145DECB4008B377E /* PeriodicoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PeriodicoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94B4620F145DECB4008B377E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94B46217145DECB4008B377E /* UIKit.framework in Frameworks */,
+				94B46219145DECB4008B377E /* Foundation.framework in Frameworks */,
+				94B4621B145DECB4008B377E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94B4622F145DECB4008B377E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94B46235145DECB4008B377E /* SenTestingKit.framework in Frameworks */,
+				94B46236145DECB4008B377E /* UIKit.framework in Frameworks */,
+				94B46237145DECB4008B377E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94B46207145DECB4008B377E = {
+			isa = PBXGroup;
+			children = (
+				94B4621C145DECB4008B377E /* Periodico */,
+				94B4623A145DECB4008B377E /* PeriodicoTests */,
+				94B46215145DECB4008B377E /* Frameworks */,
+				94B46213145DECB4008B377E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94B46213145DECB4008B377E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94B46212145DECB4008B377E /* Periodico.app */,
+				94B46233145DECB4008B377E /* PeriodicoTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94B46215145DECB4008B377E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				94B46216145DECB4008B377E /* UIKit.framework */,
+				94B46218145DECB4008B377E /* Foundation.framework */,
+				94B4621A145DECB4008B377E /* CoreGraphics.framework */,
+				94B46234145DECB4008B377E /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		94B4621C145DECB4008B377E /* Periodico */ = {
+			isa = PBXGroup;
+			children = (
+				94B46225145DECB4008B377E /* PeriodicoAppDelegate.h */,
+				94B46226145DECB4008B377E /* PeriodicoAppDelegate.m */,
+				94B46228145DECB4008B377E /* MainStoryboard.storyboard */,
+				94B4622B145DECB4008B377E /* PeriodicoViewController.h */,
+				94B4622C145DECB4008B377E /* PeriodicoViewController.m */,
+				94B4621D145DECB4008B377E /* Supporting Files */,
+			);
+			path = Periodico;
+			sourceTree = "<group>";
+		};
+		94B4621D145DECB4008B377E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				94B4621E145DECB4008B377E /* Periodico-Info.plist */,
+				94B4621F145DECB4008B377E /* InfoPlist.strings */,
+				94B46222145DECB4008B377E /* main.m */,
+				94B46224145DECB4008B377E /* Periodico-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		94B4623A145DECB4008B377E /* PeriodicoTests */ = {
+			isa = PBXGroup;
+			children = (
+				94B46240145DECB4008B377E /* PeriodicoTests.h */,
+				94B46241145DECB4008B377E /* PeriodicoTests.m */,
+				94B4623B145DECB4008B377E /* Supporting Files */,
+			);
+			path = PeriodicoTests;
+			sourceTree = "<group>";
+		};
+		94B4623B145DECB4008B377E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				94B4623C145DECB4008B377E /* PeriodicoTests-Info.plist */,
+				94B4623D145DECB4008B377E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94B46211145DECB4008B377E /* Periodico */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94B46245145DECB4008B377E /* Build configuration list for PBXNativeTarget "Periodico" */;
+			buildPhases = (
+				94B4620E145DECB4008B377E /* Sources */,
+				94B4620F145DECB4008B377E /* Frameworks */,
+				94B46210145DECB4008B377E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Periodico;
+			productName = Periodico;
+			productReference = 94B46212145DECB4008B377E /* Periodico.app */;
+			productType = "com.apple.product-type.application";
+		};
+		94B46232145DECB4008B377E /* PeriodicoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94B46248145DECB4008B377E /* Build configuration list for PBXNativeTarget "PeriodicoTests" */;
+			buildPhases = (
+				94B4622E145DECB4008B377E /* Sources */,
+				94B4622F145DECB4008B377E /* Frameworks */,
+				94B46230145DECB4008B377E /* Resources */,
+				94B46231145DECB4008B377E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94B46239145DECB4008B377E /* PBXTargetDependency */,
+			);
+			name = PeriodicoTests;
+			productName = PeriodicoTests;
+			productReference = 94B46233145DECB4008B377E /* PeriodicoTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94B46209145DECB4008B377E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 94B4620C145DECB4008B377E /* Build configuration list for PBXProject "Periodico" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 94B46207145DECB4008B377E;
+			productRefGroup = 94B46213145DECB4008B377E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94B46211145DECB4008B377E /* Periodico */,
+				94B46232145DECB4008B377E /* PeriodicoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94B46210145DECB4008B377E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94B46221145DECB4008B377E /* InfoPlist.strings in Resources */,
+				94B4622A145DECB4008B377E /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94B46230145DECB4008B377E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94B4623F145DECB4008B377E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		94B46231145DECB4008B377E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94B4620E145DECB4008B377E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94B46223145DECB4008B377E /* main.m in Sources */,
+				94B46227145DECB4008B377E /* PeriodicoAppDelegate.m in Sources */,
+				94B4622D145DECB4008B377E /* PeriodicoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94B4622E145DECB4008B377E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94B46242145DECB4008B377E /* PeriodicoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		94B46239145DECB4008B377E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94B46211145DECB4008B377E /* Periodico */;
+			targetProxy = 94B46238145DECB4008B377E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		94B4621F145DECB4008B377E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94B46220145DECB4008B377E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		94B46228145DECB4008B377E /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94B46229145DECB4008B377E /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		94B4623D145DECB4008B377E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94B4623E145DECB4008B377E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		94B46243145DECB4008B377E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		94B46244145DECB4008B377E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94B46246145DECB4008B377E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Periodico/Periodico-Prefix.pch";
+				INFOPLIST_FILE = "Periodico/Periodico-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		94B46247145DECB4008B377E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Periodico/Periodico-Prefix.pch";
+				INFOPLIST_FILE = "Periodico/Periodico-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		94B46249145DECB4008B377E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Periodico.app/Periodico";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Periodico/Periodico-Prefix.pch";
+				INFOPLIST_FILE = "PeriodicoTests/PeriodicoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		94B4624A145DECB4008B377E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Periodico.app/Periodico";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Periodico/Periodico-Prefix.pch";
+				INFOPLIST_FILE = "PeriodicoTests/PeriodicoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94B4620C145DECB4008B377E /* Build configuration list for PBXProject "Periodico" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94B46243145DECB4008B377E /* Debug */,
+				94B46244145DECB4008B377E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94B46245145DECB4008B377E /* Build configuration list for PBXNativeTarget "Periodico" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94B46246145DECB4008B377E /* Debug */,
+				94B46247145DECB4008B377E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		94B46248145DECB4008B377E /* Build configuration list for PBXNativeTarget "PeriodicoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94B46249145DECB4008B377E /* Debug */,
+				94B4624A145DECB4008B377E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94B46209145DECB4008B377E /* Project object */;
+}
