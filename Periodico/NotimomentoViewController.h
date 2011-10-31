@@ -15,4 +15,5 @@
 }
 
 @property (nonatomic, retain) UIWebView *webView;
+- (IBAction)nacionalesPressed:(id)sender;
 @end

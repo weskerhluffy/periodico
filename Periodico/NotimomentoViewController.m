@@ -65,4 +65,8 @@
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
+- (IBAction)nacionalesPressed:(id)sender {
+    UIAlertView *alert=[[UIAlertView alloc] initWithTitle:@"Mierda" message:@"Mensaje caca" delegate:nil cancelButtonTitle:@"A huevo" otherButtonTitles: nil];
+    [alert show];
+}
 @end

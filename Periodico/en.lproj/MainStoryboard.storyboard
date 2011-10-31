@@ -42,6 +42,18 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </webView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="Q9p-SF-JEH">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem tag="1" title="Nacionales" id="HLb-ue-53P">
+                                        <connections>
+                                            <action selector="nacionalesPressed:" destination="rR3-oQ-qcj" id="E5D-1c-iji"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Política" id="gNW-N9-IEa"/>
+                                </items>
+                            </toolbar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -111,6 +123,7 @@
         <class className="NotimomentoViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/NotimomentoViewController.h"/>
             <relationships>
+                <relationship kind="action" name="nacionalesPressed:"/>
                 <relationship kind="outlet" name="webView" candidateClass="UIWebView"/>
             </relationships>
         </class>
