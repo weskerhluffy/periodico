@@ -9,5 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface NotimomentoViewController : UIViewController
+{
+	
+	IBOutlet UIWebView *webView;
+}
 
+@property (nonatomic, retain) UIWebView *webView;
 @end

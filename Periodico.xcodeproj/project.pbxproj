@@ -117,9 +117,9 @@
 				94B46225145DECB4008B377E /* PeriodicoAppDelegate.h */,
 				94B46226145DECB4008B377E /* PeriodicoAppDelegate.m */,
 				94B46228145DECB4008B377E /* MainStoryboard.storyboard */,
-				94B4622B145DECB4008B377E /* PortadaViewController.h */,
 				94B4624B145DED16008B377E /* NotimomentoViewController.h */,
 				94B4624C145DED17008B377E /* NotimomentoViewController.m */,
+				94B4622B145DECB4008B377E /* PortadaViewController.h */,
 				94B4622C145DECB4008B377E /* PortadaViewController.m */,
 				94B4621D145DECB4008B377E /* Supporting Files */,
 			);

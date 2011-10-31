@@ -10,4 +10,11 @@
 
 @interface PortadaViewController : UIViewController
 
+{
+	
+	IBOutlet UIWebView *webView;
+}
+
+@property (nonatomic, retain) UIWebView *webView;
+
 @end

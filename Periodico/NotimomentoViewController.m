@@ -9,7 +9,7 @@
 #import "NotimomentoViewController.h"
 
 @implementation NotimomentoViewController
-
+@synthesize webView;
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -36,13 +36,21 @@
 }
 */
 
-/*
-// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+	
+	NSString *urlAddress = @"http://www.unomasuno.com.mx/notimomento/nacionales.html";
+	
+	//Create a URL object.
+	NSURL *url = [NSURL URLWithString:urlAddress];
+	
+	//URL Requst Object
+	NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
+	
+	//Load the request in the UIWebView.
+	[webView loadRequest:requestObj];
 }
-*/
 
 - (void)viewDidUnload
 {

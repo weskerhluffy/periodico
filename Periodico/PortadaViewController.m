@@ -10,6 +10,8 @@
 
 @implementation PortadaViewController
 
+@synthesize webView;
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
@@ -21,7 +23,17 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	
+	NSString *urlAddress = @"http://www.unomasuno.com.mx/";
+	
+	//Create a URL object.
+	NSURL *url = [NSURL URLWithString:urlAddress];
+	
+	//URL Requst Object
+	NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
+	
+	//Load the request in the UIWebView.
+	[webView loadRequest:requestObj];
 }
 
 - (void)viewDidUnload
