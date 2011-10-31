@@ -9,6 +9,7 @@
 #import "NotimomentoViewController.h"
 
 @implementation NotimomentoViewController
+
 @synthesize webView;
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -49,6 +50,7 @@
 	NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
 	
 	//Load the request in the UIWebView.
+
 	[webView loadRequest:requestObj];
 }
 
@@ -66,7 +68,18 @@
 }
 
 - (IBAction)nacionalesPressed:(id)sender {
-    UIAlertView *alert=[[UIAlertView alloc] initWithTitle:@"Mierda" message:@"Mensaje caca" delegate:nil cancelButtonTitle:@"A huevo" otherButtonTitles: nil];
-    [alert show];
+	NSString *urlAddress = @"http://www.unomasuno.com.mx/notimomento/nacionales.html";
+	NSURL *url = [NSURL URLWithString:urlAddress];
+	NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
+	[webView loadRequest:requestObj];
 }
+
+- (IBAction)politicaPressed:(id)sender {
+	NSString *urlAddress = @"http://www.unomasuno.com.mx/notimomento/politica.html";
+	NSURL *url = [NSURL URLWithString:urlAddress];
+	NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
+	[webView loadRequest:requestObj];
+}
+
+
 @end

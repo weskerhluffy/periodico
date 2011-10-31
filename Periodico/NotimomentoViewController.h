@@ -16,4 +16,5 @@
 
 @property (nonatomic, retain) UIWebView *webView;
 - (IBAction)nacionalesPressed:(id)sender;
+- (IBAction)politicaPressed:(id)sender;
 @end
