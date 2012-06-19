@@ -366,7 +366,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Periodico/Periodico-Prefix.pch";
 				INFOPLIST_FILE = "Periodico/Periodico-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -377,7 +379,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Periodico/Periodico-Prefix.pch";
 				INFOPLIST_FILE = "Periodico/Periodico-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -435,6 +439,7 @@
 				94B46247145DECB4008B377E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		94B46248145DECB4008B377E /* Build configuration list for PBXNativeTarget "PeriodicoTests" */ = {
 			isa = XCConfigurationList;
@@ -443,6 +448,7 @@
 				94B4624A145DECB4008B377E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
